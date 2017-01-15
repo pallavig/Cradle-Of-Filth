@@ -1,3 +1,5 @@
+package inventory;
+
 public class InventoryItem {
 
     private final Product product;

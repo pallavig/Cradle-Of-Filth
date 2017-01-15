@@ -1,3 +1,7 @@
+import inventory.Inventory;
+import inventory.InventoryItem;
+import printers.ItemTotalWorthPrinter;
+
 import java.util.List;
 
 public class Main {
@@ -5,7 +9,8 @@ public class Main {
     public static void main(String[] args) {
         Inventory inventory = new Inventory();
 
-        List<InventoryItem> items = inventory.getItems();
-        new InventoryPresenter().display(items);
+        ItemTotalWorthPrinter printer = new ItemTotalWorthPrinter(inventory);
+        System.out.println(printer.toCsv());
+        System.out.println(printer.toPipeSeparated());
     }
 }
