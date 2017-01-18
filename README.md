@@ -26,10 +26,10 @@ So now the inventory looks like this.
 
 
 
- | Product Id        | Product Name           | Quantity  | Price/unit| Countries |
+| Product Id | Product Name| Quantity  | Price/unit| Countries |
 | ------- |:-------------:| -----:| ----:|----:|
 | 1 | toothpaste | 30 | 48 | { “India”:”paste”,“Aus”: “manjan” } |                   
-| 2 | bournvita |   70 | 90 | { “India”:”tonic”,“Aus”: “” }
+| 2 | bournvita |   70 | 90 | { “India”:”tonic”,“Aus”: “” } |
 
 
 
