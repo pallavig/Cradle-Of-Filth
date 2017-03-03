@@ -12,5 +12,6 @@ public class Main {
         ItemTotalWorthPrinter printer = new ItemTotalWorthPrinter(inventory);
         System.out.println(printer.toCsv());
         System.out.println(printer.toPipeSeparated());
+        System.out.println(inventory.getLocaleFor("toothpaste"));
     }
 }
