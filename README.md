@@ -46,3 +46,12 @@ STORY #2: Print what the product is called in different countries.
 
 GOOD store is spreading its base to many other countries. 
 It now wants the capability to add a new country. This happens quite frequently, so every time a new country is added code should not be redeployed.
+
+STORY #3 : Print what the product is called in all countries including the recently added country.
+So if toothpaste is now being sold in  Brazil with name "datun" then it should print
+
+| Product Name | India | Australia | Brazil
+| ------- |:-------------:| -----:|-----:|
+|toothpaste | paste | manjan | datun |
+
+InventoryTable.allRows() will be the source of information.
