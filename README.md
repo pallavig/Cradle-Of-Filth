@@ -20,7 +20,8 @@ STORY #1: Print total worth per product.
 ==================================================================
 
 
-GOOD store is quite awesome in managing its responsibility because it sells a single product at a time.  It is getting famous worldwide and sells the product to different countries(India, Aus).
+GOOD store is quite awesome in managing its responsibility because it sells a single product at a time. 
+It is getting famous worldwide and sells the product to different countries(India, Aus).
 The product is named  differently in different country as per their national language.
 So now the inventory looks like this.
 
@@ -39,3 +40,9 @@ STORY #2: Print what the product is called in different countries.
 | Product Name | India | Australia |
 | ------- |:-------------:| -----:|
 |toothpaste | paste | manjan |
+
+
+==================================================================
+
+GOOD store is spreading its base to many other countries. 
+It now wants the capability to add a new country. This happens quite frequently, so every time a new country is added code should not be redeployed.
